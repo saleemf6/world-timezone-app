@@ -1,8 +1,11 @@
 pipeline
 {
 	agent any
+	tools{
+		maven '3.8.2'
+		jdk 'jdk8'
+		}
 	stages{
-		
 		stage('Build Application'){
 		steps{
 		bat 'mvn clean install'
