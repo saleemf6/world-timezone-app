@@ -29,7 +29,19 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
+				<configuration>
+				<cloudHubDeployment>
+				<username>FSaleem03_boost</username>
+				<environment>Sandbox</environment>
+				<worker>1</worker>
+				<workerType>Micro</workerType>
+				<applicationName>worldtimezone-service</applicationName>
+				<password>FSaleem03_boost</password>
+				<muleVersion>4.3.0</muleVersion>
+				</cloudHubDeployment>
+				</configuration>
 			</plugin>
+			
 		</plugins>
 	</build>
 
