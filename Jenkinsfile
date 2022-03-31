@@ -15,7 +15,7 @@ pipeline
 		
 		stage('MUnit Testing Application'){
 		steps{
-		bat 'mvn clean install'
+		bat 'mvn test'
 		}
 		}
 
