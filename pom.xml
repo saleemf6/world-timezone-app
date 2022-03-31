@@ -38,6 +38,7 @@
 				<applicationName>worldtimezone-service</applicationName>
 				<password>FSaleem03_boost</password>
 				<muleVersion>4.3.0</muleVersion>
+				<objectStoreV2>true</objectStoreV2>
 				</cloudHubDeployment>
 				</configuration>
 			</plugin>
