@@ -33,7 +33,7 @@
 				<cloudHubDeployment>
 				<username>FSaleem03_boost</username>
 				<environment>Sandbox</environment>
-				<worker>1</worker>
+				<workers>1</workers>
 				<workerType>Micro</workerType>
 				<applicationName>worldtimezone-service</applicationName>
 				<password>FSaleem03_boost</password>
