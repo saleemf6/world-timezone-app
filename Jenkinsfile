@@ -4,6 +4,7 @@ pipeline
 	tools{
 		maven 'maven -3'
 		jdk 'jdk-8'
+		newman 'Node.js Installation'
 		}
 	stages{
 		stage('Build Application'){
