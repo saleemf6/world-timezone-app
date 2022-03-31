@@ -35,7 +35,7 @@
 				<environment>Sandbox</environment>
 				<workers>1</workers>
 				<workerType>Micro</workerType>
-				<applicationName>worldtimezone-service</applicationName>
+				<applicationName>mule-ci-cd-demo1</applicationName>
 				<password>FSaleem03_boost</password>
 				<muleVersion>4.3.0</muleVersion>
 				<objectStoreV2>true</objectStoreV2>
